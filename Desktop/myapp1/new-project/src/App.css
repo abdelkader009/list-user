@@ -1,0 +1,21 @@
+.App{
+  background-color: beige;
+  padding-top:30px
+}
+
+h1{
+  text-align: center;
+  color: blue;
+  padding-bottom: 30px;
+}
+.formul{
+  display: inline-block;
+  position: absolute;
+  padding-top: 20px;
+
+}
+
+
+
+
+
