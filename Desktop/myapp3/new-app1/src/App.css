@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  
+  
+}
+body {
+  background-color:bisque;
+}
+.name{
+  color:blue;
+  text-decoration: underline;
+  
+}
+.adresse{
+  color:red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
