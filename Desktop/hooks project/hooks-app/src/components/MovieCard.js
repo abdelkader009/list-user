@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 
 
 
-const MovieCard = () => {
+const MovieCard = ({movies}) => {
     const[filter,setFilter]=useState('')
     const searchText=(event)=>{
         setFilter(event.target.value);
     }
-    let dataSearch = data.cardData.filter(item=>{
+    let dataSearch = movies.filter(item=>{
         return Object.keys(item).some(key=>
             item[key].toString().toLowerCase().includes(filter.toString().toLowerCase())
             )

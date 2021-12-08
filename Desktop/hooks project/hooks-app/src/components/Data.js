@@ -19,7 +19,7 @@ const data = {
             title: 'Batman and Robin',
             desc: ' Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City.',
             link:<Iframe width="560" height="315" src="https://www.youtube.com/embed/4RBXypX4qWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>,
-            rate: '8'
+            rate: '8.3'
         },
         {
             id:Math.random(),
@@ -27,7 +27,7 @@ const data = {
             title: 'Inception',
             desc: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
             link:<Iframe width="560" height="315" src="https://www.youtube.com/embed/YoHD9XEInc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>,
-            rate: '9'
+            rate: '9.7'
         },
         {
             id:Math.random(),
