@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {Card} from 'react-bootstrap'
 import Rating from './Rating'
 import data from './Data'
+import { Link } from 'react-router-dom'
 
 
 
@@ -34,7 +35,9 @@ const MovieCard = () => {
                 <div className="card2"> 
                 
                 <Card style={{ width: '18rem' }}>
+                  <Link to={`/${item.title}`} state={item.id}>
                 <Card.Img className="img" variant="top" src={item.img} />
+                </Link>
                 <Card.Body>
                   <Card.Title className="title"><h1>{item.title}</h1></Card.Title>
                   <Card.Text className="text">{item.desc}</Card.Text>
