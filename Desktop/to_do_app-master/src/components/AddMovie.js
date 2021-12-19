@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { addMovie } from '../action/actionAdd';
 import { v4 as uuid } from 'uuid'
-// import { AddTask } from '../action/ActionTask';
+
 
 const AddMovie = () => {
     const [show, setShow] = useState(false);
